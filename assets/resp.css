@@ -1,0 +1,177 @@
+/* For screens smaller than 600px (e.g., smartphones) */
+@media screen and (max-width: 600px) {
+  /* Add your CSS rules here */
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .width-content {
+    width: 96%;
+  }
+  .top-banner-nav {
+    height: fit-content;
+  }
+  .top-banner-nav .content {
+    width: 100%;
+    /* height: 1000px; */
+    padding: 4px;
+  }
+  .navbar {
+    width: 90%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .tablet-column,
+  .mobile-column {
+    flex-direction: column;
+  }
+  .tablet-gap-32 {
+    gap: 32px;
+  }
+  .tablet-full {
+    width: 80%;
+  }
+  .mobile-full {
+    width: 100%;
+  }
+  .mobile-margin-top-64{
+    margin-top: 64px;
+  }
+  .geofem-logo-mobile {
+    display: block;
+  }
+  .geofem-logo-default {
+    display: none;
+  }
+  .indiv-service {
+    /* width: 400px; */
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-company-img {
+    display: none;
+  }
+  .why-gsi-duo-card-container {
+    width: 410px;
+    gap: 32px;
+  }
+  .sp-HW-270 {
+    height: 200px;
+    width: 200px;
+  }
+  .contact-us-mini {
+    height: fit-content;
+  }
+  .contact-us-card{
+    width: 100%;
+  }
+  .collab-image{
+    height: 146px;
+    width: 196px;
+    object-fit: contain;
+  }
+  .mobile-gap-16{
+    gap: 16px;
+  }
+  .mobile-margin-top-16{
+    margin-top: 16px;
+  }
+}
+
+/* For screens between 600px and 900px (e.g., tablets) */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  /* Add your CSS rules here */
+  .width-content {
+    width: 600px;
+  }
+  .top-banner-nav {
+    height: fit-content;
+  }
+  .top-banner-nav .content {
+    width: 600px;
+    /* height: 1000px; */
+    padding: 4px;
+  }
+  .navbar {
+    width: 600px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .tablet-column {
+    flex-direction: column;
+  }
+  .tablet-gap-32 {
+    gap: 32px;
+  }
+  .tablet-full {
+    width: 80%;
+  }
+  .indiv-service {
+    /* width: 400px; */
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-company-img {
+    display: none;
+  }
+  .contact-us-card{
+    width: 100%;
+  }
+}
+/* For screens between 600px and 1164px (e.g., semi desktops) */
+@media screen and (min-width: 900px) and (max-width: 1164px) {
+  /* Add your CSS rules here */
+  .width-content {
+    width: 900px;
+  }
+  .top-banner-nav .content {
+    width: 900px;
+  }
+  .navbar {
+    width: 900px;
+  }
+  .indiv-service {
+    /* width: 400px; */
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .about-company-img {
+    height: 300px;
+    width: 260px;
+  }
+  .more-about-gsi-img {
+    height: 160px;
+    width: 400px;
+  }
+  .why-gsi-duo-card-container {
+    width: 435px;
+    gap: 32px;
+  }
+  .sp-HW-270 {
+    height: 210px;
+    width: 210px;
+  }
+  .contact-us-mini {
+    height: 210px;
+  }
+  .sm-desktop-gap-16 {
+    gap: 4px;
+  }
+  .resp-f-16 {
+    font-size: 16px;
+  }
+  .resp-line-height-16 {
+    line-height: 24px;
+    width: 90%;
+  }
+  .mobile-margin-top-16{
+    margin-top: 24px;
+  }
+}
+
+/* For screens larger than 900px (e.g., laptops and desktops) */
+@media screen and (min-width: 1164px) {
+  /* Add your CSS rules here */
+}

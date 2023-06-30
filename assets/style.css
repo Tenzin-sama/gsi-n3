@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  transition: 0.1s ease-out;
+}
+html {
+  font-family: "DM Sans", sans-serif;
+  justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+}
+/* navbar */
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  /* background-color: #696e77; */
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 0px;
+  width: 1164px;
+  /* height: 120px; */
+  justify-content: space-between;
+  background: #ffffff;
+  /* background-color: #ff0404; */
+}
+.top-banner-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 0px;
+
+  width: 100%;
+  height: 40px;
+
+  background: #16243d;
+}
+.top-banner-nav .content {
+  width: 1163px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  /* background-color: #ff0404; */
+}
+.top-banner-nav label {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 26px;
+  color: #dfe5ef;
+}
+.top-banner-nav .muted {
+  margin-left: -8px;
+  color: #97a2b7;
+}
+.logo img {
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 32px;
+}
+
+.nav-links li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #696e77;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #696e77;
+  /* font-size: 23px; */
+  /* font-weight: bold; */
+}
+.nav-links a:hover {
+  color: #a30202;
+}
+
+.contact {
+}
+.contact a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.32px;
+
+  color: #ffffff;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 16px 40px;
+  background-color: #ff0404;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.contact-button:hover {
+  background-color: #a30202;
+}
+.dot {
+  width: 2px;
+  height: 2px;
+}
+/* navbar end */
+/* hero */
+.hero-section {
+  height: 682px;
+  background-image: url(heroT.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.image-overlay {
+  /* Position the pseudo-element to fill the parent div */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  /* Set the background color to black with 80% opacity */
+  background-color: rgba(12, 34, 73, 0.74);
+
+  /* Make sure the pseudo-element is behind the content of the div */
+  z-index: 0;
+}
+.hero-section p {
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+.indiv-service a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.client-tiny {
+  width: 180px;
+  height: 120px;
+  background: #f2c3c3;
+  margin-right: 24px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  -webkit-scroll-snap-align: start;
+  -moz-scroll-snap-align: start;
+  background-size: cover;
+  background-position: center;
+}
+
+.test-div {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 1200px;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  scroll-snap-type: x mandatory;
+  -webkit-scroll-snap-type: x mandatory;
+  -moz-scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.scroll-wrapper {
+  width: 1200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-content {
+  display: flex;
+  width: 9999px;
+  position: absolute;
+  animation: scroll 3s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-9999px);
+  }
+}
+
+.image-list {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.image-item {
+  max-width: 180px;
+  height: 120px;
+  /* background: #f2c3c3; */
+  margin-right: 48px;
+  /* background-image: url("path/to/image.jpg"); */
+  background-size: cover;
+  animation: scroll 10s linear infinite;
+  flex-shrink: 0;
+}
+.image-item img{
+  max-width: 180px;
+  height: 120px;
+  object-fit: contain;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-300px - 24px));
+  }
+}
+
+.about-company-img {
+  height: 539px;
+  width: 500px;
+  object-fit: cover;
+}
+.more-about-gsi-img{
+  height: 220px;
+  width: 540px;
+}
+.geofem-logo-mobile{
+  display: none;
+}
+.contact-us-card{
+  width: 800px;
+}
+
+
+/*for image*/
+.image-container img{
+  max-width: 100%;
+}
+.image-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image-container figcaption{
+  font-style: italic;
+  text-align: center;
+  color: rgb(148, 96, 0);
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #ff0404; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  font-size: 18px; /* Increase font size */
+
+  border-radius: 50%;
+  background-image: url("/images/scroll-up.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 24px 24px;
+  color: #ffffff;
+  padding: 32px;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* .image-container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.image-container.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container.fullscreen img {
+  max-width: none;
+  max-height: none;
+} */
+
+
+/* clients logo grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-gap: 1rem;
+}
+.grid > div {
+  /* background: black; */
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  border: #f2f5f9 solid 1px;
+  border-radius: 4px;
+}
+.grid > div::before {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+  grid-area: 1/1/2/2;
+}
+.grid > div img {
+  width: 100%;
+  grid-area: 1/1/2/2;
+}
+
