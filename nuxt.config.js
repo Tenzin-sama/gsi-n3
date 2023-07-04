@@ -1,4 +1,12 @@
-export default {
+
+export default defineNuxtConfig({
+  "nitro": {
+      "output": {
+          dir: 'output',
+          serverDir: 'output/server',
+          publicDir: 'output/public'
+      }
+  },
   router: {
     scrollBehavior: async (to, from, savedPosition) => {
       if (savedPosition) {
@@ -11,4 +19,4 @@ export default {
       }
     },
   },
-};
+})
