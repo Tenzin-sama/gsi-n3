@@ -292,7 +292,7 @@ nav {
   font-size: 18px; /* Increase font size */
 
   border-radius: 50%;
-  background-image: url("/images/scroll-up.svg");
+  background-image: url("/~/public/img/scroll-up.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 24px 24px;

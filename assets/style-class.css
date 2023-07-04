@@ -17,6 +17,9 @@
 .bg-blue-50{
   background-color: #8A919D;
 }
+.bg-none{
+  background: none;
+}
 .hover-bg-primary:hover {
   background-color: #a30202;
 }

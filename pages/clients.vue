@@ -26,18 +26,18 @@
       </div>
       <div class="width-content margin-top-100 margin-bottom-100">
         <div class="grid width-100 overflow-x-nobar">
-          <div><img src="images/clients-logo/Aayu malun hydro.jpg"></div>
-          <div><img src="images/clients-logo/bedrock engineering.jpg"></div>
-          <div><img src="images/clients-logo/Chilime hydropower.jpg"></div>
-          <div><img src="images/clients-logo/DOED.png"></div>
-          <div><img src="images/clients-logo/Dusit Thani.jpeg"></div>
-          <div><img src="images/clients-logo/Earth Observatory of Singapore.png"></div>
-          <div><img src="images/clients-logo/fullbrightlogo.jpg"></div>
-          <div><img src="images/clients-logo/jurassic_logo_small.png"></div>
-          <div><img src="images/clients-logo/Kadoorie.png"></div>
-          <div><img src="images/clients-logo/NEA engineering company.png"></div>
-          <div><img src="images/clients-logo/NK buildcon.jpg"></div>
-          <div><img src="images/clients-logo/Real path engineering.jpg"></div>
+          <div><img src="~/public/img/clients-logo/Aayu malun hydro.jpg"></div>
+          <div><img src="~/public/img/clients-logo/bedrock engineering.jpg"></div>
+          <div><img src="~/public/img/clients-logo/Chilime hydropower.jpg"></div>
+          <div><img src="~/public/img/clients-logo/DOED.png"></div>
+          <div><img src="~/public/img/clients-logo/Dusit Thani.jpeg"></div>
+          <div><img src="~/public/img/clients-logo/Earth Observatory of Singapore.png"></div>
+          <div><img src="~/public/img/clients-logo/fullbrightlogo.jpg"></div>
+          <div><img src="~/public/img/clients-logo/jurassic_logo_small.png"></div>
+          <div><img src="~/public/img/clients-logo/Kadoorie.png"></div>
+          <div><img src="~/public/img/clients-logo/NEA engineering company.png"></div>
+          <div><img src="~/public/img/clients-logo/NK buildcon.jpg"></div>
+          <div><img src="~/public/img/clients-logo/Real path engineering.jpg"></div>
         </div>
       </div>
       <!-- <div class="width-content d-flex d-flex-column gap-32 margin-top-100">
@@ -50,23 +50,8 @@
     </section>
 
     <!-- contact card -->
-    <section>
-      <!-- duo -->
-      <div
-        class="d-flex d-flex-row justify-between bg-light-gray contact-us-card rounded-8 margin-auto margin-bottom-100">
-        <div
-          class="width-100 d-flex-row justify-between align-center padding-x-50 padding-y-40 gap-24 sm-desktop-gap-16 mobile-column">
-          <div class="width-64 d-flex-column align-start mobile-full">
-            <label class="fg-muted f-16 text-decoration-none f-uppercase">inquire about our services</label>
-            <h3 class="width-100 f-24 fg-blk90 line-height-34 resp-line-height-16">You can contact us for consultations
-              or any inquiries.</h3>
-          </div>
-          <div class="contact rounded-2 d-inline">
-            <a href="contact.html" class="contact-button">Contact us</a>
-          </div>
-        </div>
-      </div>
-    </section>
+    <TheContactCard />
+    
 </template>
 
 <script setup>
