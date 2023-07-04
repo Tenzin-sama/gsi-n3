@@ -26,7 +26,7 @@
       </div>
       <div class="width-content margin-top-100 margin-bottom-100">
         <div class="grid width-100 overflow-x-nobar">
-          <div><img src="~/public/img/clients-logo/Aayu malun hydro.jpg"></div>
+          <div><img src="~/public/img/clients-logo/Aayumalunhydro.jpg"></div>
           <div><img src="~/public/img/clients-logo/bedrock engineering.jpg"></div>
           <div><img src="~/public/img/clients-logo/Chilime hydropower.jpg"></div>
           <div><img src="~/public/img/clients-logo/DOED.png"></div>
