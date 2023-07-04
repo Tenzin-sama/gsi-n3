@@ -461,7 +461,7 @@
     <div class="image-list">
       <div class="image-item bg-blk90"></div>
       <div class="image-item">
-        <img src="~/public/img/clients-logo/Aayu malun hydro.jpg" />
+        <img src="~/public/img/clients-logo/Aayumalunhydro.jpg" />
       </div>
       <div class="image-item">
         <img src="~/public/img/clients-logo/bedrock engineering.jpg" />
