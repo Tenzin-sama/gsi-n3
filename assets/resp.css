@@ -1,6 +1,6 @@
 /* For screens smaller than 600px (e.g., smartphones) */
 @media screen and (max-width: 600px) {
-  /* Add your CSS rules here */
+  /* check */
   body {
     overflow-x: hidden;
     width: 100%;
