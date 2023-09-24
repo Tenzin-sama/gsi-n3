@@ -9,7 +9,7 @@
           GSI does the job perfectly.
         </p>
         <figure class="image-container">
-          <img src="~/public/img/environmental1.jpg" alt="An example image">
+          <img src="img/environmental1.jpg" alt="An example image">
           <figcaption class="f-16 fg-muted">Arniko Highway and surrounding environment.</figcaption>
         </figure>
         <p class="fg-blk90 f-20 line-height-34">GSI is well intimate in environmental issues relating to:
@@ -29,7 +29,7 @@
           structural engineers to lead the work in large-scale landslide evaluation in the Himalayas.
         </p>
         <figure class="image-container">
-          <img src="~/public/img/environmental2.jpg"
+          <img src="img/environmental2.jpg"
             alt="An image showing the Rockslide Natural Dam in Tamakoshi River, Lamabagar, Dolakha.">
           <figcaption class="f-16 fg-muted">Rockslide Natural Dam in Tamakoshi River, Lamabagar, Dolakha.</figcaption>
         </figure>
@@ -38,7 +38,7 @@
           Problem evaluation and solutions are provided by experts in a large-scale landslide.
         </p>
         <figure class="image-container">
-          <img src="~/public/img/environmental3.png" alt="An image showing the Rockslide Concept of large-scale landslides in Nepal, prepared by GSI Key
+          <img src="img/environmental3.png" alt="An image showing the Rockslide Concept of large-scale landslides in Nepal, prepared by GSI Key
           Team members.">
           <figcaption class="f-16 fg-muted">Rockslide Concept of large-scale landslides in Nepal, prepared by GSI Key
             Team members.</figcaption>
@@ -61,7 +61,7 @@
           <li>Community-based low-cost early warning system</li>
         </ul>
         <figure class="image-container">
-          <img src="~/public/img/environmental4.png"
+          <img src="img/environmental4.png"
             alt="An image showing shallow landslide problems on Mugling-Narayangadh Road, with 90% of them occurring on Deep-Seated Gravitational Slope Deformations (DGSDs) mass, as discussed in the research output of GSI Key Team members.">
           <figcaption class="f-16 fg-muted">Shallow landslide problems in Mugling-Narayangadh Road, 90% of shallow
             landslides are on Deep-Seated Gravitational Slope Deformations (DGSDs) mass, the research output of GSI Key
@@ -74,7 +74,7 @@
           etc.
         </p>
         <figure class="image-container">
-          <img src="~/public/img/environmental5.jpg"
+          <img src="img/environmental5.jpg"
             alt="An image showing Training and discussion programs with local level leaders">
           <figcaption class="f-16 fg-muted">Training and discussion programs with local level leaders</figcaption>
         </figure>
@@ -86,7 +86,7 @@
           for IEE and ensures accurate assessment of the area under study.
         </p>
         <figure class="image-container">
-          <img src="~/public/img/environmental6.jpg"
+          <img src="img/environmental6.jpg"
             alt="An image showing the River pollution issues in Chandi River at semiurban area of Terai, Rautahat.">
           <figcaption class="f-16 fg-muted">River pollution issues in Chandi River at semiurban area of Terai, Rautahat.
           </figcaption>
@@ -99,11 +99,11 @@
           cause detrimental effects on the environment.
         </p>
         <figure class="image-container">
-          <img src="~/public/img/environmental7.jpg" alt="An image showing the Suspended bridge over Sanga Road, Bhaktapur.">
+          <img src="img/environmental7.jpg" alt="An image showing the Suspended bridge over Sanga Road, Bhaktapur.">
           <figcaption class="f-16 fg-muted">Suspended bridge over Sanga Road, Bhaktapur.</figcaption>
         </figure>
         <NuxtLink to="/contact" class="fg-primary d-flex-row gap-8 hover-fg-primary text-decoration-none f-bold f-20">
-          Get in touch with us<img class="" src="~/public/img/chevron-right.svg">
+          Get in touch with us<img class="" src="img/chevron-right.svg">
         </NuxtLink>
 
       </div>

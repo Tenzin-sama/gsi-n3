@@ -11,7 +11,7 @@
               services are provided with specialized engineered systems developed and manufactured by Trumer with more
               than two decades of experience.</p>
             <figure class="image-container">
-              <img src="~/public/img/rockfall1.png" alt="An example image">
+              <img src="img/rockfall1.png" alt="An example image">
               <figcaption class="f-16 fg-muted">Rockfall protection work in Upper Bhotekoshi Hydropower Project by GSI.
               </figcaption>
             </figure>
@@ -20,7 +20,7 @@
               installation teams to safeguard habitats, buildings and infrastructures from natural hazards. The
               protection system can be effortlessly installed and maintained.</p>
             <figure class="image-container">
-              <img src="~/public/img/rockfall2.jpg" alt="An example image">
+              <img src="img/rockfall2.jpg" alt="An example image">
               <figcaption class="f-16 fg-muted">Progress of rockfall protection barrier in the tunnel portal area of
                 Upper Tamakoshi Hydropower Project, Dolakha.</figcaption>
             </figure>
@@ -34,7 +34,7 @@
               trail of Mt Everest. Cost-effective and technically correct solutions and high-quality materials are key
               to our problem-solving approach in Nepal Himalaya.</p>
             <figure class="image-container">
-              <img src="~/public/img/rockfall3.png" alt="An example image">
+              <img src="img/rockfall3.png" alt="An example image">
               <figcaption class="f-16 fg-muted">GSI team evaluating bridge site for flood and inundation-related risk
                 management in the confluence of Mahuli and Trijuga River near to the Koshi Barrage.</figcaption>
             </figure>
@@ -42,7 +42,7 @@
           <img class="">
         </div>
         <NuxtLink to="/contact" class="fg-primary d-flex-row gap-8 hover-fg-primary text-decoration-none f-bold f-20 ">
-          Get in touch with us<img class="" src="~/public/img/chevron-right.svg">
+          Get in touch with us<img class="" src="img/chevron-right.svg">
 
         </NuxtLink>
 

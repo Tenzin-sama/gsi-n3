@@ -1,97 +1,97 @@
 <template>
   <div class="image-grid">
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg1.jpg" />
+      <img src="img/newimageas/NewImg1.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg2.jpg" />
+      <img src="img/newimageas/NewImg2.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg3.jpg" />
+      <img src="img/newimageas/NewImg3.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg4.jpg" />
+      <img src="img/newimageas/NewImg4.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg5.jpg" />
+      <img src="img/newimageas/NewImg5.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg6.jpg" />
+      <img src="img/newimageas/NewImg6.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg7.jpg" />
+      <img src="img/newimageas/NewImg7.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg8.jpg" />
+      <img src="img/newimageas/NewImg8.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg9.jpg" />
+      <img src="img/newimageas/NewImg9.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg10.jpg" />
+      <img src="img/newimageas/NewImg10.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg11.jpg" />
+      <img src="img/newimageas/NewImg11.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg12.jpg" />
+      <img src="img/newimageas/NewImg12.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg13.jpg" />
+      <img src="img/newimageas/NewImg13.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg14.jpg" />
+      <img src="img/newimageas/NewImg14.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg15.jpg" />
+      <img src="img/newimageas/NewImg15.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg16.jpg" />
+      <img src="img/newimageas/NewImg16.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg17.jpg" />
+      <img src="img/newimageas/NewImg17.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg18.jpg" />
+      <img src="img/newimageas/NewImg18.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg19.jpg" />
+      <img src="img/newimageas/NewImg19.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg20.jpg" />
+      <img src="img/newimageas/NewImg20.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg21.jpg" />
+      <img src="img/newimageas/NewImg21.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg22.jpg" />
+      <img src="img/newimageas/NewImg22.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg23.jpg" />
+      <img src="img/newimageas/NewImg23.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg24.jpg" />
+      <img src="img/newimageas/NewImg24.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg25.jpg" />
+      <img src="img/newimageas/NewImg25.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg26.jpg" />
+      <img src="img/newimageas/NewImg26.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg27.jpg" />
+      <img src="img/newimageas/NewImg27.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg28.jpg" />
+      <img src="img/newimageas/NewImg28.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg29.jpg" />
+      <img src="img/newimageas/NewImg29.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg30.jpg" />
+      <img src="img/newimageas/NewImg30.jpg" />
     </div>
     <div class="indiv-image-gallery">
-      <img src="~/public/img/newimageas/NewImg31.jpg" />
+      <img src="img/newimageas/NewImg31.jpg" />
     </div>
     <!-- <img src="~/src/img/newimages/NewImg1.jpg"> -->
   </div>

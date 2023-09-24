@@ -14,7 +14,7 @@
       <div class="logo">
         <NuxtLink to="/"
           ><img
-            src="~/public/img/nav-logo.png"
+            src="img/nav-logo.png"
             alt="Company Logo"
             width="108"
             height="81"
