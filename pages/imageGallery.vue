@@ -1,4 +1,7 @@
 <template>
+  <Head>
+    <Title>Image Gallery | Geotech Solutions International</Title>
+  </Head>
   <section class="width-100 d-flex d-flex-column">
     <div class="width-100 bg-blk90 d-flex d-flex-column">
       <div

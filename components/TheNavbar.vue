@@ -33,7 +33,7 @@
       <!--  menu icon for mobile-->
       <a href="javascript:void(0);" class="icon desktop-disp-none">
         <img @click="showMenu()" class="fg-primary"
-            src="~/public/img/menu-ham.svg"
+            src="img/menu-ham.svg"
             alt="Company Logo"
             width="48"
             height="32"

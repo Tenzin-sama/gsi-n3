@@ -14,6 +14,7 @@ import("~/assets/resp.css");
 </script>
 
 <style scoped>
+
 * {
   margin: 0;
   padding: 0;

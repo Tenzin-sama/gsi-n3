@@ -1,4 +1,7 @@
 <template>
+  <Head>
+    <Title>Our Clients | Geotech Solutions International</Title>
+  </Head>
   <!-- main section -->
   <section class="width-100 d-flex d-flex-column">
       <div class="width-100 bg-blk90 d-flex d-flex-column">
@@ -26,18 +29,18 @@
       </div>
       <div class="width-content margin-top-100 margin-bottom-100">
         <div class="grid width-100 overflow-x-nobar">
-          <div><img src="~/public/img/clients-logo/Aayumalunhydro.jpg"></div>
-          <div><img src="~/public/img/clients-logo/bedrock engineering.jpg"></div>
-          <div><img src="~/public/img/clients-logo/Chilime hydropower.jpg"></div>
-          <div><img src="~/public/img/clients-logo/DOED.png"></div>
-          <div><img src="~/public/img/clients-logo/Dusit Thani.jpeg"></div>
-          <div><img src="~/public/img/clients-logo/Earth Observatory of Singapore.png"></div>
-          <div><img src="~/public/img/clients-logo/fullbrightlogo.jpg"></div>
-          <div><img src="~/public/img/clients-logo/jurassic_logo_small.png"></div>
-          <div><img src="~/public/img/clients-logo/Kadoorie.png"></div>
-          <div><img src="~/public/img/clients-logo/NEA engineering company.png"></div>
-          <div><img src="~/public/img/clients-logo/NK buildcon.jpg"></div>
-          <div><img src="~/public/img/clients-logo/Real path engineering.jpg"></div>
+          <div><img src="img/clients-logo/Aayumalunhydro.jpg"></div>
+          <div><img src="img/clients-logo/bedrock engineering.jpg"></div>
+          <div><img src="img/clients-logo/Chilime hydropower.jpg"></div>
+          <div><img src="img/clients-logo/DOED.png"></div>
+          <div><img src="img/clients-logo/Dusit Thani.jpeg"></div>
+          <div><img src="img/clients-logo/Earth Observatory of Singapore.png"></div>
+          <div><img src="img/clients-logo/fullbrightlogo.jpg"></div>
+          <div><img src="img/clients-logo/jurassic_logo_small.png"></div>
+          <div><img src="img/clients-logo/Kadoorie.png"></div>
+          <div><img src="img/clients-logo/NEA engineering company.png"></div>
+          <div><img src="img/clients-logo/NK buildcon.jpg"></div>
+          <div><img src="img/clients-logo/Real path engineering.jpg"></div>
         </div>
       </div>
       <!-- <div class="width-content d-flex d-flex-column gap-32 margin-top-100">

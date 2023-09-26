@@ -91,7 +91,7 @@
         </p>
 
         <NuxtLink to="/contact" class="fg-primary d-flex-row gap-8 hover-fg-primary text-decoration-none f-bold f-20">
-          Get in touch with us<img class="" src="~/public/img/chevron-right.svg">
+          Get in touch with us<img class="" src="img/chevron-right.svg">
         </NuxtLink>
 
       </div>

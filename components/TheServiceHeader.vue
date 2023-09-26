@@ -29,7 +29,7 @@
         <div
           class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         ><NuxtLink to="/services1" class="hover-bg-darker"
-              ><img src="~/public/img/service rockfall.jpg"
+              ><img src="img/service rockfall.jpg"
             /></NuxtLink>
           <div class="d-flex d-flex-column align-start gap-0">
             
@@ -54,7 +54,7 @@
           class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
           <NuxtLink to="/services2" class="hover-bg-darker"
-            ><img src="~/public/img/service environmental.jpg"
+            ><img src="img/service environmental.jpg"
           /></NuxtLink>
           <NuxtLink
             to="/services2"
@@ -78,7 +78,7 @@
           class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
           <NuxtLink to="/services3" class="hover-bg-darker"
-            ><img src="~/public/img/service structural.jpg"
+            ><img src="img/service structural.jpg"
           /></NuxtLink>
           <NuxtLink
             to="/services3"
@@ -98,7 +98,7 @@
           class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
           <NuxtLink to="/services4" class="hover-bg-darker"
-            ><img src="~/public/img/service Geotechnical.jpg"
+            ><img src="img/service Geotechnical.jpg"
           /></NuxtLink>
           <NuxtLink
             to="/services4"

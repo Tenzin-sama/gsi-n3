@@ -1,4 +1,8 @@
 <template>
+  <Head>
+    <Title>Home | Geotech Solutions International</Title>
+  </Head>
+  <!-- <TheHeroSlider></TheHeroSlider> -->
   <!-- hero section -->
   <section class="width-100 position-relative">
     <div class="image-overlay"></div>
@@ -17,7 +21,7 @@
           </h1>
           <div class="geofem-logo-mobile">
             <img
-              src="~/public/img/geofem-logo.png"
+              src="img/geofem-logo.png"
               alt="GEOFEM Company Logo"
               width="244"
               height="54"
@@ -37,7 +41,7 @@
         <!-- right -->
         <div class="geofem-logo-default">
           <img
-            src="~/public/img/geofem-logo.png"
+            src="img/geofem-logo.png"
             alt="GEOFEM Company Logo"
             width="244"
             height="54"
@@ -63,7 +67,7 @@
           class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
           <NuxtLink to="/services1" class="hover-bg-darker"
-            ><img src="~/public/img/service rockfall.jpg"
+            ><img src="img/service rockfall.jpg"
           /></NuxtLink>
           <div class="d-flex d-flex-column align-start gap-0">
             <NuxtLink
@@ -87,7 +91,7 @@
           class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
           <NuxtLink to="/services2" class="hover-bg-darker"
-            ><img src="~/public/img/service environmental.jpg"
+            ><img src="img/service environmental.jpg"
           /></NuxtLink>
           <NuxtLink
             to="/services2"
@@ -111,7 +115,7 @@
           class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
           <NuxtLink to="/services3" class="hover-bg-darker"
-            ><img src="~/public/img/service structural.jpg"
+            ><img src="img/service structural.jpg"
           /></NuxtLink>
           <NuxtLink
             to="/services3"
@@ -131,7 +135,7 @@
           class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
           <NuxtLink to="/services4" class="hover-bg-darker"
-            ><img src="~/public/img/service Geotechnical.jpg"
+            ><img src="img/service Geotechnical.jpg"
           /></NuxtLink>
           <NuxtLink
             to="/services4"
@@ -153,7 +157,7 @@
   <section
     class="width-content margin-auto d-flex d-flex-row justify-between margin-bottom-200 tablet-column"
   >
-    <img class="about-company-img" src="~/public/img/company.jpg" />
+    <img class="about-company-img" src="img/company.jpg" />
     <!-- left -->
     <div
       class="d-flex justify-start d-flex-column gap-32 max-width-569 align-start"
@@ -174,7 +178,7 @@
       >
         Get in touch with us<img
           class=""
-          src="~/public/img/chevron-right.svg"
+          src="img/chevron-right.svg"
         />
       </NuxtLink>
     </div>
@@ -274,7 +278,7 @@
             You can contact us for consultations or any inquiries.
           </h3>
           <div class="contact rounded-2 d-inline">
-            <NuxtLink to="/contact" href="contact.html" class="contact-button">Contact us</NuxtLink>
+            <NuxtLink to="/contact" class="contact-button">Contact us</NuxtLink>
           </div>
         </div>
       </div>
@@ -295,7 +299,7 @@
           class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
           <NuxtLink to="/services1" class="hover-bg-darker"
-            ><img src="~/public/img/service rockfall.jpg"
+            ><img src="img/service rockfall.jpg"
           /></NuxtLink>
           <div class="d-flex d-flex-column align-start gap-0">
             <NuxtLink
@@ -319,7 +323,7 @@
           class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
           <NuxtLink to="/services2" class="hover-bg-darker"
-            ><img src="~/public/img/service environmental.jpg"
+            ><img src="img/service environmental.jpg"
           /></NuxtLink>
           <NuxtLink
             to="/services2"
@@ -343,7 +347,7 @@
           class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
           <NuxtLink to="/services3" class="hover-bg-darker"
-            ><img src="~/public/img/service structural.jpg"
+            ><img src="img/service structural.jpg"
           /></NuxtLink>
           <NuxtLink
             to="/services3"
@@ -363,7 +367,7 @@
           class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
           <NuxtLink to="/services4" class="hover-bg-darker"
-            ><img src="~/public/img/service Geotechnical.jpg"
+            ><img src="img/service Geotechnical.jpg"
           /></NuxtLink>
           <NuxtLink
             to="/services4"
@@ -394,14 +398,13 @@
       <div class="d-flex-column gap-16 padding-16 shadow rounded-10">
         <div class="rounded-10 bg-light-gray overflow-hidden">
           <img
-            src="~/public/img/hero.png"
+            src="img/hero.png"
             class="border-0 more-about-gsi-img"
           />
         </div>
         <div class="d-flex-column gap-0 justify-center">
           <h3 class="fg-blk90">Objectives</h3>
-          <NuxtLink to="/about"
-            href="about.html#objectives-section"
+          <NuxtLink to="/about" 
             class="fg-primary hover-fg-primary text-decoration-none f-uppercase f-14"
             >Learn More</NuxtLink>
         </div>
@@ -410,7 +413,7 @@
       <div class="d-flex-column gap-16 padding-16 shadow rounded-10">
         <div class="rounded-10 bg-light-gray overflow-hidden">
           <img
-            src="~/public/img/hero.png"
+            src="img/hero.png"
             class="border-0 more-about-gsi-img"
           />
         </div>
@@ -426,77 +429,47 @@
   <!-- clients section -->
   <section class="width-100 d-flex-column justify-center margin-y-200 gap-56">
     <h1 class="fg-blk90">Clients</h1>
-    <!-- iteration 1 -->
-    <!-- clients -->
-    <!-- <div class="width-100 overflow-x-nobar test-div">
-        <div class="client-tiny"> .</div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny bg-blk90"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny bg-blk90"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny"> </div>
-        <div class="client-tiny bg-primary"> </div>
-      </div> -->
 
     <!-- iteration 2 -->
     <div class="image-list">
       <div class="image-item bg-blk90"></div>
       <div class="image-item">
-        <img src="~/public/img/clients-logo/Aayumalunhydro.jpg" />
+        <img src="img/clients-logo/Aayumalunhydro.jpg" />
       </div>
       <div class="image-item">
-        <img src="~/public/img/clients-logo/bedrock engineering.jpg" />
+        <img src="img/clients-logo/bedrock engineering.jpg" />
       </div>
       <div class="image-item">
-        <img src="~/public/img/clients-logo/Chilime hydropower.jpg" />
+        <img src="img/clients-logo/Chilime hydropower.jpg" />
       </div>
       <div class="image-item">
-        <img src="~/public/img/clients-logo/DOED.png" />
+        <img src="img/clients-logo/DOED.png" />
       </div>
       <div class="image-item">
-        <img src="~/public/img/clients-logo/Dusit Thani.jpeg" />
+        <img src="img/clients-logo/Dusit Thani.jpeg" />
       </div>
       <div class="image-item">
         <img
-          src="~/public/img/clients-logo/Earth Observatory of Singapore.png"
+          src="img/clients-logo/Earth Observatory of Singapore.png"
         />
       </div>
       <div class="image-item">
-        <img src="~/public/img/clients-logo/fullbrightlogo.jpg" />
+        <img src="img/clients-logo/fullbrightlogo.jpg" />
       </div>
       <div class="image-item">
-        <img src="~/public/img/clients-logo/jurassic_logo_small.png" />
+        <img src="img/clients-logo/jurassic_logo_small.png" />
       </div>
       <div class="image-item">
-        <img src="~/public/img/clients-logo/Kadoorie.png" />
+        <img src="img/clients-logo/Kadoorie.png" />
       </div>
       <div class="image-item">
-        <img src="~/public/img/clients-logo/NEA engineering company.png" />
+        <img src="img/clients-logo/NEA engineering company.png" />
       </div>
       <div class="image-item">
-        <img src="~/public/img/clients-logo/NK buildcon.jpg" />
+        <img src="img/clients-logo/NK buildcon.jpg" />
       </div>
       <div class="image-item">
-        <img src="~/public/img/clients-logo/Real path engineering.jpg" />
+        <img src="img/clients-logo/Real path engineering.jpg" />
       </div>
       <div class="image-item bg-primary"></div>
     </div>

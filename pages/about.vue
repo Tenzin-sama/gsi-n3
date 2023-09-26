@@ -1,4 +1,7 @@
 <template>
+  <Head>
+    <Title>About | Geotech Solutions International</Title>
+  </Head>
   <section class="width-100 d-flex d-flex-column">
     <div class="width-100 bg-blk90 d-flex d-flex-column">
       <div
@@ -154,10 +157,7 @@
         to="/contact"
         class="fg-primary d-flex-row gap-8 hover-fg-primary text-decoration-none f-bold f-20 padding-x-32"
       >
-        Get in touch with us<img
-          class=""
-          src="~/public/img/chevron-right.svg"
-        />
+        Get in touch with us<img class="" src="img/chevron-right.svg" />
       </NuxtLink>
     </div>
   </section>
@@ -212,10 +212,7 @@
         to="/contact"
         class="fg-primary d-flex-row gap-8 hover-fg-primary text-decoration-none f-bold f-20 padding-x-32"
       >
-        Get in touch with us<img
-          class=""
-          src="~/public/img/chevron-right.svg"
-        />
+        Get in touch with us<img class="" src="img/chevron-right.svg" />
       </NuxtLink>
     </div>
   </section>

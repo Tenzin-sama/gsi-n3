@@ -1,5 +1,8 @@
 
 export default defineNuxtConfig({
+  meta: {
+    title: 'Geotech Solutions International',
+  },
   "nitro": {
       "output": {
           dir: 'output',

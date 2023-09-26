@@ -1,8 +1,11 @@
 <template>
+  <Head>
+    <Title>Contact Us | Geotech Solutions International</Title>
+  </Head>
   <section
     class="width-content margin-auto d-flex d-flex-row justify-between margin-bottom-100 tablet-column"
   >
-    <img class="about-company-img" src="~/public/img/company.jpg" />
+    <img class="about-company-img" src="img/company.jpg" />
     <!-- left -->
     <div
       class="d-flex justify-start d-flex-column gap-32 max-width-569 align-start margin-top-100 mobile-margin-top-16"
@@ -50,10 +53,10 @@
         <div
           class="indiv-service width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
-          <a href="tel:97715188602"><img src="~/public/img/phone.png" /></a>
+          <a href="tel:97715188602"><img src="img/phone.png" /></a>
           <div class="d-flex d-flex-column align-start gap-0">
             <a
-              href="#"
+              href="tel:97715188602"
               class="fg-primary hover-fg-primary text-decoration-none f-uppercase"
               >Phone 1</a
             >
@@ -65,10 +68,10 @@
         <div
           class="indiv-service width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
-          <a href="tel:9779801833720"><img src="~/public/img/phone 2.png" /></a>
+          <a href="tel:9779801833720"><img src="img/phone 2.png" /></a>
           <div class="d-flex d-flex-column align-start gap-0">
             <a
-              href="#"
+              href="tel:9779801833720"
               class="fg-primary hover-fg-primary text-decoration-none f-uppercase"
               >Phone 2</a
             >
@@ -84,7 +87,7 @@
         <div
           class="indiv-service width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
-          <img src="~/public/img/fax.png" />
+          <img src="img/fax.png" />
           <div class="d-flex d-flex-column align-start gap-0">
             <a class="fg-primary text-decoration-none f-uppercase"
               >fax and phone</a
@@ -97,7 +100,7 @@
           class="indiv-service width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full"
         >
           <a href="mailto:info@gsi.com"
-            ><img src="~/public/img/email1.png"
+            ><img src="img/email1.png"
           /></a>
           <div class="d-flex d-flex-column align-start gap-0">
             <a
