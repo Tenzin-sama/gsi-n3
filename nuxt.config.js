@@ -21,5 +21,8 @@ export default defineNuxtConfig({
         return { left: 0, top: 0 };
       }
     },
+    modules: [
+      'vue3-carousel-nuxt'
+    ],
   },
 })

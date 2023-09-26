@@ -1,132 +1,111 @@
 <template>
-  <div class="full-width-slider">
-    <div class="slider-container">
-      <div
-        class="slider"
-        :style="{
-          transform: `translateX(${translateValue}%)`,
-          transition: `transform ${transitionDuration}ms`,
-        }"
-        @touchstart="handleTouchStart"
-        @touchmove="handleTouchMove"
-        @touchend="handleTouchEnd"
-      >
-        <div
-          v-for="(slide, index) in slides"
-          :key="index"
-          class="slide"
-          :style="{ backgroundImage: `url(${slide.image})` }"
-        ></div>
+  <Carousel :wrap-around="true">
+    <Slide v-for="slide in 3" :key="slide">
+      <!-- slide 1 -->
+      <div class="carousel__item hero-section">
+        <!-- hero slide -->
+        <section class="width-100 position-relative">
+          <div class="image-overlay w-100">
+            <img class="width-100" src="img/hero1.png">
+          </div>
+          <div class="width-100 hero-section d-flex justify-center">
+            <!-- content container -->
+            <div
+              class="d-flex width-content height-100 justify-between mobile-column"
+              style="z-index: 1"
+            >
+              <!-- left -->
+              <div
+                class="d-flex justify-start d-flex-column gap-32 width-64 align-start mobile-full"
+              >
+                <h1 class="fg-white mobile-margin-top-64">
+                  Collaboration with GEOFEM
+                </h1>
+                <div class="geofem-logo-mobile">
+                  <img
+                    src="img/geofem-logo.png"
+                    alt="GEOFEM Company Logo"
+                    width="244"
+                    height="54"
+                  />
+                </div>
+                <p class="fg-white-70 f-18">
+                  GSI's partnership with GEOFEM is driving innovation in
+                  geoscience. By combining our expertise in geological mapping
+                  and mineral exploration with GEOFEM's cutting-edge geophysical
+                  research, we are able to offer our clients a comprehensive
+                  suite of services that pushes the boundaries of geoscience.
+                </p>
+                <div class="contact rounded-2">
+                  <NuxtLink to="/geofem" class="contact-button"
+                    >Learn More</NuxtLink
+                  >
+                </div>
+              </div>
+              <!-- right -->
+              <div class="geofem-logo-default">
+                <img
+                  src="img/geofem-logo.png"
+                  alt="GEOFEM Company Logo"
+                  width="244"
+                  height="54"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-    </div>
+      
+    </Slide>
 
-    <div class="slider-controls">
-      <button @click="prevSlide" class="control-button prev-button">Previous</button>
-      <button @click="nextSlide" class="control-button next-button">Next</button>
-    </div>
-  </div>
+    <template #addons>
+      <Navigation />
+      <Pagination />
+    </template>
+  </Carousel>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      slides: [
-        { image: 'https://68.media.tumblr.com/c40636a5a0d4aa39c335c8db40d2144f/tumblr_omc7z7Xv8N1slhhf0o1_1280.jpg' },
-        { image: 'https://68.media.tumblr.com/c40636a5a0d4aa39c335c8db40d2144f/tumblr_omc7z7Xv8N1slhhf0o1_1280.jpg' },
-        { image: 'https://68.media.tumblr.com/c40636a5a0d4aa39c335c8db40d2144f/tumblr_omc7z7Xv8N1slhhf0o1_1280.jpg' },
-        // Add more images as needed
-      ],
-      currentIndex: 0,
-      translateValue: 0,
-      transitionDuration: 300, // Adjust the transition duration as needed (in milliseconds)
-      touchStartX: 0,
-    };
+import { defineComponent } from "vue";
+import { Carousel, Navigation, Pagination, Slide } from "vue3-carousel";
+
+import "vue3-carousel/dist/carousel.css";
+
+export default defineComponent({
+  name: "Basic",
+  components: {
+    Carousel,
+    Slide,
+    Pagination,
+    Navigation,
   },
-  computed: {
-    maxIndex() {
-      return this.slides.length - 1;
-    },
-  },
-  methods: {
-    prevSlide() {
-      this.currentIndex = Math.max(0, this.currentIndex - 1);
-      this.updateTranslateValue();
-    },
-    nextSlide() {
-      this.currentIndex = Math.min(this.maxIndex, this.currentIndex + 1);
-      this.updateTranslateValue();
-    },
-    updateTranslateValue() {
-      this.translateValue = -this.currentIndex * 100; // 100% for full width
-    },
-    handleTouchStart(event) {
-      this.touchStartX = event.touches[0].clientX;
-    },
-    handleTouchMove(event) {
-      const dragDelta = event.touches[0].clientX - this.touchStartX;
-      this.translateValue = -this.currentIndex * 100 + (dragDelta / window.innerWidth) * 100;
-    },
-    handleTouchEnd(event) {
-      const dragThreshold = 0.1; // Adjust the threshold as needed
-      if (Math.abs(this.touchStartX - event.changedTouches[0].clientX) / window.innerWidth > dragThreshold) {
-        if (this.touchStartX < event.changedTouches[0].clientX) {
-          this.prevSlide();
-        } else {
-          this.nextSlide();
-        }
-      }
-      this.updateTranslateValue();
-    },
-  },
-  mounted() {
-    this.updateTranslateValue();
-  },
-};
+});
 </script>
 
-<style scoped>
-.full-width-slider {
+<style>
+.carousel__item {
+  min-height: 200px;
   width: 100%;
-  overflow: hidden;
-}
-
-.slider-container {
-  display: flex;
-  overflow: hidden;
-}
-
-.slider {
-  display: flex;
-  transition: transform 300ms;
-}
-
-.slide {
-  flex: 0 0 100%;
-  height: auto;
-  background-size: cover;
-  background-position: center center;
-}
-
-.slider-controls {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-}
-
-.control-button {
-  background-color: #333;
+  background-color: #fff;
   color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
+  font-size: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.prev-button {
-  border-radius: 4px 0 0 4px;
+.carousel__slide {
+  padding: 10px;
 }
 
-.next-button {
-  border-radius: 0 4px 4px 0;
+.carousel__prev,
+.carousel__next {
+  box-sizing: content-box;
+  border: 5px solid white;
+  background-color: #fff;
+}
+.image-overlay img, .image-overlay {
+  object-fit: cover;
 }
 </style>

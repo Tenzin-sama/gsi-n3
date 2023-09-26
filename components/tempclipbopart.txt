@@ -1,0 +1,17 @@
+{ id: 2, image: 'img/clients-logo/bedrock engineering.jpg' },
+{ id: 2, image: 'img/clients-logo/Chilime hydropower.jpg' },
+{ id: 2, image: 'img/clients-logo/DOED.png' },
+{ id: 2, image: 'img/clients-logo/Dusit Thani.jpeg Earth Observatory of Singapore.png' },
+{ id: 2, image: 'img/clients-logo/Earth Observatory of Singapore.png' },
+{ id: 2, image: 'img/clients-logo/fullbrightlogo.jpg jurassic_logo_small.png' },
+{ id: 2, image: 'img/clients-logo/Kadoorie.png' },
+{ id: 2, image: 'img/clients-logo/NEA engineering company.png' },
+{ id: 2, image: 'img/clients-logo/NEA engineering company.png' },
+{ id: 2, image: 'img/clients-logo/NK buildcon.jpg Real path engineering.jpg Seismotech.png' },
+{ id: 2, image: 'img/clients-logo/UNDP-Logo-Blue-Large.png' },
+{ id: 2, image: 'img/clients-logo/unseco.jpg urja.png' },
+{ id: 2, image: 'img/clients-logo/Vindhyavasini-Secondary-School-Pokhara.png' },
+
+
+
+{ id: 2, image: 'img/clients-logo/bedr' },
