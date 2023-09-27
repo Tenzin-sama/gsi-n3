@@ -1,5 +1,6 @@
 <template>
-  <Carousel :items-to-show="12" :wrap-around="true" :autoplay="500" :transition="1000" :pause-autoplay-on-hover="true">
+  <!-- this is the updated client carousel, however because it is not as smooth, as well as there being no reason for updating the current one to this, this component is just parked here. -->
+  <Carousel :items-to-show="12" :wrap-around="true" :autoplay="1" :transition="5000" :pause-autoplay-on-hover="false">
     <Slide v-for="slide in slideData" :key="slide.id">
       <div class="carousel__item">
         <img class="bg-white" :src="slide.image" alt="Slide {{ slide.id }}" />
@@ -54,7 +55,7 @@ export default defineComponent({
 
 <style>
 .carousel__item {
-  min-height: 200px;
+  min-height: 100px;
   width: 100%;
   border-radius: 8px;
   display: flex;

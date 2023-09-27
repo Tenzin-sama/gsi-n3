@@ -6,7 +6,7 @@
         <!-- hero slide -->
         <section class="width-100 position-relative">
           <div class="image-overlay w-100">
-            <img class="width-100" src="img/hero1.png">
+            <img class="width-100" src="img/hero1.png" />
           </div>
           <div class="width-100 hero-section d-flex justify-center">
             <!-- content container -->
@@ -55,7 +55,6 @@
           </div>
         </section>
       </div>
-      
     </Slide>
 
     <template #addons>
@@ -83,6 +82,9 @@ export default defineComponent({
 </script>
 
 <style>
+.carousel__viewport {
+  height: 700px;
+}
 .carousel__item {
   min-height: 200px;
   width: 100%;
@@ -104,8 +106,71 @@ export default defineComponent({
   box-sizing: content-box;
   border: 5px solid white;
   background-color: #fff;
+  color: #000;
+  opacity: 50%;
 }
-.image-overlay img, .image-overlay {
-  object-fit: cover;
+.image-overlay img,
+.image-overlay {
+  object-fit: fill;
+}
+.carousel__pagination {
+  margin-top: -40px;
+  color: #fff;
+  z-index: -1;
+  background-color: #fff;
+}
+.bg-pattern {
+  background-color: #2c3d5a;
+  opacity: 1;
+  background-image: linear-gradient(
+      30deg,
+      #16243d 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #16243d 87.5%,
+      #16243d
+    ),
+    linear-gradient(
+      150deg,
+      #16243d 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #16243d 87.5%,
+      #16243d
+    ),
+    linear-gradient(
+      30deg,
+      #16243d 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #16243d 87.5%,
+      #16243d
+    ),
+    linear-gradient(
+      150deg,
+      #16243d 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #16243d 87.5%,
+      #16243d
+    ),
+    linear-gradient(
+      60deg,
+      #16243d77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #16243d77 75%,
+      #16243d77
+    ),
+    linear-gradient(
+      60deg,
+      #16243d77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #16243d77 75%,
+      #16243d77
+    );
+  background-size: 24px 42px;
+  background-position: 0 0, 0 0, 12px 21px, 12px 21px, 0 0, 12px 21px;
 }
 </style>
